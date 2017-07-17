@@ -1,0 +1,482 @@
+<!doctype html>
+<html class="no-js" lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <!-- SITE TITLE -->
+    <title>Kiin Technologies</title>
+
+    <!-- =========================
+       Meta Information
+    ============================== -->
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <!-- =========================
+       favicon and app touch icon
+    ============================== -->
+    <link rel="shortcut icon" href="img/kiin/logo_kiin.ico"/>
+
+
+    <!-- =========================
+       Bootstrap and animation
+    ============================== -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    <!-- =========================
+       Fonts, typography and icons
+    ============================== -->
+<!--     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/typography.css"> -->
+
+    <!-- =========================
+       Carousel, lightbox and circle generator
+    ============================== -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/nivo-lightbox.css">
+    <link rel="stylesheet" href="css/nivo-lightbox-default.css">
+    <link rel="stylesheet" href="css/jquery.circliful.css">
+    <link rel="stylesheet" href="css/toastr.min.css">
+
+
+    <!-- ***** Custom Stylesheet ***** -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- ***** Responsive fixes ***** -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Header scripts -->
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="js/queryloader2.min.js"></script>
+
+    <!-- =========================
+       Preloader
+    ============================== -->
+    <script>
+        window.addEventListener('DOMContentLoaded', function() {
+            "use strict";
+            new QueryLoader2(document.querySelector("body"), {
+                barColor: "#f47924",
+                backgroundColor: "#111",
+                percentage: true,
+                barHeight: 1,
+                minimumTime: 200,
+                fadeOutTime: 1000
+            });
+        });
+        var alert_color_success_background = '#f47924';
+        var alert_color_error_background = '#da5b03';
+
+    </script>
+</head>
+<body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- =========================
+       Fullscreen menu
+    ============================== -->
+    <div class="mobilenav">
+        <ul>
+            <li data-rel="#header">
+                <span class="nav-label">KIIN</span>
+            </li>
+            <li data-rel="#portfolio">
+                <span class="nav-label">Soluciones</span>
+            </li>
+            <li data-rel="#send-message">
+                <span class="nav-label">Contacto</span>
+            </li>
+        </ul>
+    </div>  <!-- *** end Full Screen Menu *** -->
+
+    <!-- *****  hamburger icon ***** -->
+    <a href="javascript:void(0)" class="menu-trigger">
+       <div class="hamburger">
+         <div class="menui top-menu"></div>
+         <div class="menui mid-menu"></div>
+         <div class="menui bottom-menu"></div>
+       </div>
+    </a>
+
+
+    <!-- =========================
+       Header
+    ============================== -->
+    <header id="header">
+        <div id="myCarousel" class="carousel slide">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <!-- <li data-target="#myCarousel" data-slide-to="3"></li> -->
+                <!-- <li data-target="#myCarousel" data-slide-to="4"></li> -->
+            </ol>
+
+            <!-- Wrapper for Slides -->
+            <div class="carousel-inner">
+
+                <!-- *****  Logo ***** -->
+                <div class="logo-container">
+                    <a class="es" href="#">ES </a>/<a class="en" href="#"> EN</a>
+                </div>
+
+                <!-- =========================
+                   Header item 1
+                ============================== -->
+                <div class="item active">
+
+                    <!-- Set the first background image using inline CSS below. -->
+                    <div class="fill" style="background-image:url('img/slider/slider-1.jpg');">
+                    </div>
+                    <div class="carousel-caption">
+                        <div class="home_logo">
+                            <img src="img/kiin/logo_kiin_color2.png"  alt="">
+                        </div>
+                        <div class="call-button">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <a href="#about-us" class="button  internal-link bold-text light main-bg hvr-grow" >K´IIN</a>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <a href="#portfolio" class="button  internal-link bold-text light main-bg hvr-grow" >Soluciones</a>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <a href="#send-message" class="button t internal-link bold-text light main-bg hvr-grow" >Contacto</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overlay"></div>
+                </div>
+
+                 <!-- =========================
+                   Header item 2
+                ============================== -->
+                <div class="item">
+                    <!-- Set the second background image using inline CSS below. -->
+                    <div class="fill" style="background-image:url('img/slider/slider-2.jpg');"></div>
+                    <div class="carousel-caption">
+                        <div class="home_logo">
+                            <img src="img/kiin/logo_kiin_color2.png"  alt="">
+                        </div>
+                        <div class="call-button">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <a href="#about-us" class="button  internal-link bold-text light main-bg hvr-grow" >K´IIN</a>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <a href="#portfolio" class="button  internal-link bold-text light main-bg hvr-grow" >Soluciones</a>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <a href="#send-message" class="button t internal-link bold-text light main-bg hvr-grow" >Contacto</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overlay"></div>
+                </div>
+
+                <!-- =========================
+                   Header item 3
+                ============================== -->
+                <div class="item">
+                    <!-- Set the second background image using inline CSS below. -->
+                    <div class="fill" style="background-image:url('img/slider/slider-3.jpg');"></div>
+                    <div class="carousel-caption">
+                        <div class="home_logo">
+                            <img src="img/kiin/logo_kiin_color2.png"  alt="">
+                        </div>
+                        <div class="call-button">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <a href="#about-us" class="button  internal-link bold-text light main-bg hvr-grow" >K´IIN</a>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <a href="#portfolio" class="button  internal-link bold-text light main-bg hvr-grow" >Soluciones</a>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <a href="#send-message" class="button t internal-link bold-text light main-bg hvr-grow" >Contacto</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overlay"></div>
+                </div>
+            </div> <!-- *** end wrapper *** -->
+
+            <!-- Carousel Controls -->
+            <a class="left carousel-control hidden-xs" href="#myCarousel" data-slide="prev">
+                <span class="icon-prev icon-arrow-left"></span>
+            </a>
+            <a class="right carousel-control hidden-xs" href="#myCarousel" data-slide="next">
+                <span class="icon-next icon-arrow-right"></span>
+            </a>
+        </div>
+    </header> <!-- *** end Header *** -->
+
+
+    <!-- =========================
+       Call to action
+    ============================== -->
+    <section class="main-bg-barra lema">
+        <p class="light-text">"Somos <b class="bold-text">Energía</b> - Somos <b class="bold-text">Sol</b> - Kiin <b class="bold-text">Energy</b>"</p>
+    </section> <!-- *** end call-to-action *** -->
+
+
+    <!-- =========================
+       About Us
+    ============================== -->
+    <section id="about-us" class="about-us cfondo">
+        <div class="overlay">
+            <div class="container ">
+                <div class="row container wow fadeInUp ttl_index">
+                    <h2>
+                        <strong class="bold-text">Nuestro</strong>
+                    <span class="light-text main-color">propósito...</span>
+                    </h2>
+                    <div class="line main-bg"></div>
+                </div> <!-- *** end row *** -->
+
+                <div class="row margin-bottom-medium">
+                    <div class="col-sm-6 col-md-7">
+                        <div class="jumbo-text light-text margin-top-medium wow slideInLeft" data-wow-duration="2s">
+                            Distribuir en México y Latinoamérica 
+                            <strong class="bold-text">tecnologías avanzadas y reconocidas</strong>
+                            con la finalidad de fomentar la eficiencia con la cual se extrae la energía en nuestro continente, tanto a partir de fuentes fósiles como a partir de fuentes renovables.
+                             <div class="leer_mas ">
+                                <a class="main-bg hvr-grow" href="kiin_nosotros.html">Conócenos</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-5 img wow slideInRight">
+                        <img src="img/kiin/kiin_about_home.png" alt="kiin_about_home" class="center-block img-responsive">
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+            </div>
+        </div>
+
+    </section> <!-- *** end About Us *** -->
+
+
+    <!-- =========================
+       Portfolio - SOLUCIONES
+    ============================== -->
+    <section id="portfolio" class="portfolio text-center">
+        <div class="container margin-bottom-medium">
+            <div class="row container wow fadeInUp ttl_index">
+                <h2>
+                    SOLU<strong class="main-color bold-text">CIONES</strong>
+                </h2>
+                <div class="line main-bg"></div>
+            </div> <!-- *** end row *** -->
+        </div> <!-- *** end container *** -->
+
+        <!-- *****  Portfolio  wrapper ***** -->
+        <div class="portfolio-wrapper row container-fluid margin-bottom-medium">
+        
+            <div class="div_soluciones_1 row container col-md-12">
+                <!-- =========================
+                   Portfolio item 1
+                ============================== -->
+                <div class="portfolio-item ancho_item col-sm-12">
+                    <div class="portfolio">
+                        <a href="aci.html" data-lightbox-gallery="portfolio">
+                            <img src="img/portfolio/portfolio-1.jpg" alt="Portfolio 1"/><!-- END PORTFOLIO IMAGE -->
+                            <div class="portfolio-overlay hvr-rectangle-out">
+                                <h2 class="margin-bottom-small">
+                                    <strong class="white-color bold-text font">CÁLCULO INTEGRAL DE RESERVAS Y MAPEO</strong>
+                                </h2>
+                                <div class="button font">Adams Consulting International</div>
+                            </div><!-- END PORTFOLIO OVERLAY -->
+                        </a>
+                   </div>
+                </div> <!-- *** end portfolio-item *** -->
+
+                <!-- =========================
+                   Portfolio item 2
+                ============================== -->
+                <div class=" portfolio-item ancho_item col-sm-12">
+                   <div class="portfolio">
+                      <a href="inter_cuantitativa.html" data-lightbox-gallery="portfolio">
+                        <img src="img/portfolio/portfolio-2.jpg" alt="Portfolio 2"/><!-- END PORTFOLIO IMAGE -->
+                        <div class="portfolio-overlay hvr-rectangle-out">
+                            <h2 class="margin-bottom-small">
+                                <strong class="white-color bold-text font">CARACTERIZACIÓN DE YACIMIENTOS</strong>
+                            </h2>
+                            <div class="button font">Interpretación Cuantitativa</div>
+                        </div><!-- END PORTFOLIO OVERLAY -->
+                      </a>
+                   </div>
+                </div> <!-- *** end  portfolio-item *** -->
+
+                <!-- =========================
+                   Portfolio item 3
+                ============================== -->
+                <div class="portfolio-item ancho_item_lg col-sm-12">
+                   <div class="portfolio">
+                      <a href="geocomputing.html" data-lightbox-gallery="portfolio">
+                        <img src="img/portfolio/portfolio-3.jpg" alt="Portfolio 1"/><!-- END PORTFOLIO IMAGE -->
+                        <div class="portfolio-overlay hvr-rectangle-out">
+                            <h2 class="margin-bottom-small">
+                                <strong class="white-color bold-text font">TECNOLOGÍA DE LA INFORMACIÓN</strong>
+                            </h2> 
+                            <div class="button font">GeoComputing RIVA</div>
+                        </div><!-- END PORTFOLIO OVERLAY -->
+                      </a>
+                   </div>
+                </div> <!-- *** end  portfolio-item *** -->
+                
+                <!-- =========================
+                   Portfolio item 4
+                ============================== -->
+                <div class="portfolio-item ancho_item_lg ">
+                   <div class="portfolio">
+                      <a href="ipr.html" data-lightbox-gallery="portfolio">
+                        <img src="img/portfolio/portfolio-4.jpg" alt="Portfolio 1"/><!-- END PORTFOLIO IMAGE -->
+                        <div class="portfolio-overlay hvr-rectangle-out">
+                            <h2 class="margin-bottom-small">
+                                <strong class="white-color bold-text font">INGENIERÍA Y OPERACIONES DE POZOS</strong>
+                            </h2>
+                            <div class="button font">IPR OF MEXICO.</div>
+                        </div><!-- END PORTFOLIO OVERLAY -->
+                      </a>
+                   </div>
+                </div> <!-- *** end  portfolio-item *** -->
+
+                <!-- =========================
+                   Portfolio item 5
+                ============================== -->
+                <div class="portfolio-item ancho_item_lg ">
+                   <div class="portfolio">
+                      <a href="solartec.html" data-lightbox-gallery="portfolio">
+                        <img src="img/portfolio/portfolio-5.jpg" alt="Portfolio 1"/><!-- END PORTFOLIO IMAGE -->
+                        <div class=" portfolio-overlay hvr-rectangle-out">
+                            <h2 class="margin-bottom-small">
+                                <strong class="white-color bold-text font">SOLUCIONES DE ENERGÍA RENOVABLE</strong>
+                            </h2>
+                            <div class="button font">Solartec</div>
+                        </div><!-- END PORTFOLIO OVERLAY -->
+                      </a>
+                   </div>
+                </div> <!-- *** end  portfolio-item *** -->
+            </div>
+
+        </div>
+    </section> <!-- *** end Portfolio *** -->
+
+    <!-- =========================
+       Send Message
+    ============================== -->
+    <section id="send-message" class="contacto">
+        <div class="main-bg-barra barra_gris">
+            <p class="p_contacto"><b class="bold-text">Contáctanos</b> para más información</p>
+        </div>
+        <div class="sec_contac wow fadeInUp">
+            <div class="contac_info">
+                <p class="contac_p_info1"><b>Empresa de capital 100% Mexicana ubicada en:</b></p>
+                <p class="contac_p_info2">
+                    <address>
+                        <b>México DF:</b> <br />
+                        <small>
+                            Paseo de la Reforma 342 <br>
+                            Torre New York Life Piso 26 <br>
+                            Av. Cuauhtémoc 462 <br>
+                            Juárez, Piedad Narvarte <br>
+                            Ciudad de México, D.F. <br>
+                            C.P. 06600
+                        </small>
+
+                        <br> <br>
+
+                        <b>Mérida:</b> <br />
+                        <small>
+                        Edificio Black<br>
+                        Hacienda Sodzil Nte. Piso 3<br>
+                        Mérida, Yucatán<br>
+                        C.P. 97115
+                        </small>
+
+                        <br> <br>
+                        
+                        <b>Villahermosa:</b> <br />
+                        <small>                            
+                            Edificio Samarkanda <br>
+                            Av. Samarkanda #306 Piso 4 <br>
+                            Col.Tabasco 2000 <br>
+                            Villahermosa, Tabasco <br>
+                            C.P. 86035
+                        </small>
+                    </address>
+                </p>
+            </div>
+            <form method="POST" role="form" id="formulario_kiin" class="contac_form" autocomplete="off">
+                <fieldset>
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" title="Tu Nombre" pattern="[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+"  />
+                    </div>
+                    <div>
+                        <label for="correo">Correo:</label>
+                        <input type="email" id="correo" name="correo" title="Tu correo" />
+                    </div>
+                    <div>
+                        <label for="asunto">Asunto:</label>
+                        <input type="text" id="asunto" name="asunto" title="Asunto" />
+                    </div>
+                    <div>
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" cols="50" rows="5" title="Tu mensaje" ></textarea>
+                    </div>
+                    <div id="submit">
+                        <input type="submit" class="cambio main-bg" value="Enviar" />
+                    </div>
+                </fieldset>
+            </form>
+        </div>      
+    </section> <!-- *** end Send Message *** -->
+
+
+    <!-- =========================
+       Footer
+    ============================== -->
+    <footer id="footer" class="footer">
+        <img src="img/kiin/logo_kiin_blanco.png" alt="logo_kiin_technologies">
+        <p><small>Todos los derechos reservados - 2016</small></p>
+    </footer> <!-- *** end Footer *** -->
+
+    <!-- =========================
+       Back to top button
+    ============================== -->
+    <div class="back-to-top" data-rel="body">
+        <!-- <i class="icon-up"></i> -->
+        <img class="icon-up" src="img/kiin/up.png" alt="botón_up">
+    </div>
+
+    <!-- =========================
+     JavaScripts
+    ============================== -->
+    <script src="js/vendor/jquery-1.11.1.js"></script>
+    <script src="js/vendor/bootstrap.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/nivo-lightbox.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/toastr.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
